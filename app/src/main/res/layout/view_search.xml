@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/whiteDark">
+
+        <RelativeLayout
+            android:id="@+id/search_closed_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/whiteDark">
+
+            <TextView
+                android:id="@+id/txt_dash_title"
+                style="@style/Text_24_bold"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:text="@string/str_tl_urestaurants" />
+
+            <View
+                android:id="@+id/open_search_button"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/ic_search"
+                android:backgroundTint="@color/black" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/search_open_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:background="@drawable/rounded_corner_background"
+            android:visibility="invisible">
+
+            <View
+                android:id="@+id/close_search_button"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/ic_close"
+                android:backgroundTint="@color/white" />
+
+            <EditText
+                android:id="@+id/search_input_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_toStartOf="@id/execute_search_button"
+                android:layout_toEndOf="@id/close_search_button"
+                android:background="@null"
+                android:hint="@string/hint_search_menu"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@drawable/custom_cursor_color"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/execute_search_button"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/ic_send"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</layout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whiteDark">
+
+
+        <LinearLayout
+            android:id="@+id/placeFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:src="@drawable/send_location" />
+            
+            <TextView
+                android:id="@+id/listCityTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="3dp"
+                android:textStyle="normal"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+        <celo.urestaurants.searchView.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/no_internet"
+            style="@style/Text_14_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blackTrans"
+            android:paddingVertical="4dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/no_internet_available"
+            android:textAlignment="inherit"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="10"
+            android:background="@color/whiteDark"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/no_internet">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_dash_categories"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:itemCount="4"
+                    tools:listitem="@layout/layout_adapter_category"
+                    tools:visibility="visible" />
+
+                <include
+                    android:id="@+id/categories_shimmer"
+                    layout="@layout/shimmer_categories_list"
+                    tools:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txt_dash_restoranti"
+                    style="@style/Text_22_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/str_restoranti" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_dash_restoranti"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:itemCount="4"
+                    tools:listitem="@layout/layout_adapter_location"
+                    tools:visibility="visible" />
+
+                <include
+                    android:id="@+id/restaurant_shimmer"
+                    layout="@layout/shimmer_location_list"
+                    tools:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txt_dash_pizzerie"
+                    style="@style/Text_22_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/str_pizzerie" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_dash_pizzerie"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:itemCount="4"
+                    tools:listitem="@layout/layout_adapter_location" />
+
+                <include
+                    android:id="@+id/pizzerie_shimmer"
+                    layout="@layout/shimmer_location_list" />
+
+                <TextView
+                    android:id="@+id/txt_dash_bar"
+                    style="@style/Text_22_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/str_bar" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_dash_bars"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="80dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:itemCount="4"
+                    tools:listitem="@layout/layout_adapter_location"
+                    tools:visibility="visible" />
+
+                <include
+                    android:id="@+id/bar_shimmer"
+                    layout="@layout/shimmer_location_list"
+                    tools:visibility="gone" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_dash_search"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="14dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="10"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

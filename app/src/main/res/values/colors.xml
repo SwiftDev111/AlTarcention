@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#FF000000</color>
+    <color name="purple_700">#FF000000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#000000</color>
+    <color name="blackTrans">#8F000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whiteDark">#F2F2F7</color>
+    <color name="blackLight">#FF7F7F7F</color>
+    <color name="linea">#AAAAAA</color>
+    <color name="blue">#2978A3</color>
+    <color name="lighterBlue">#80CDE7</color>
+    <color name="grey">#C5C5C5</color>
+    <color name="greyLight">#80C5C5C5</color>
+    <color name="green">#60c660</color>
+    <color name="red">#FF5733</color>
+    <color name="lightBlue">#AACCFF</color>
+    <color name="yellow">#FFCB26</color>
+    <color name="purple">#5C5ADF</color>
+    <color name="grey2">#80C5C5C5</color>
+
+    <color name="switch_thumb_color">#318CE7</color>
+    <color name="switch_track_color">#80CDE7</color>
+    <color name="switch_thumb_color_unchecked">#CCCCCC</color>
+    <color name="switch_track_color_unchecked">#E0E0E0</color>
+
+    <!--  skeleton -->
+</resources>

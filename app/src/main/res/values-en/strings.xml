@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">URestaurants</string>
+
+    <string name="hint_search_menu">Pizza, tomato, gin</string>
+    <string name="dati_aggiornati_il">Data updated on %1$s</string>
+    <string name="mappa_momentaneamente_non_disponibile">Map temporarily unavailable</string>
+    <string name="entra_a_far_parte_di_urestaurant">Join URestaurant</string>
+    <string name="mi_piacerebbe_entrare_nel_business_cosa_mi_serve">I would like to enter the business, what do I need?</string>
+    <string name="segnala_un_problema">Report a problem</string>
+    <string name="tel">"Tel: "</string>
+    <string name="no_internet_available">No connection</string>
+    <string name="placeholder_update">January 1, 2024</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Menu</string>
+    <string name="title_notifications">Info</string>
+    <string name="accedi_con_google">Log in with Google</string>
+    <string name="str_restoranti">Restaurants</string>
+    <string name="str_pizzerie">Pizzerias</string>
+    <string name="str_bar">Bars</string>
+    <string name="default_web_client_id" />
+    <string name="str_tl_urestaurants">URestaurants</string>
+    <string name="str_impostazioni">Settings</string>
+    <string name="str_nome_utente">Username</string>
+    <string name="str_aperto">Open:</string>
+    <string name="pizze">Pizzas</string>
+    <string name="chiuso">"Closed: "</string>
+    <string name="aperto">"Open: "</string>
+    <string name="start_adventure">Your digital adventure begins now - completely FREE!</string>
+    <string name="conferma">Confirm</string>
+    <string name="welcome">Welcome</string>
+    <string name="termini_e_condizioni">Terms and Conditions</string>
+    <string name="accept_terms_and_conditions">I accept terms and conditions</string>
+    <string name="confirm">Confirm</string>
+    <string name="legal_notes">Legal Notes</string>
+    <string name="report_problem">Report a problem</string>
+    <string name="add_your_exercise">Add your exercise</string>
+    <string name="sunday">Sunday</string>
+    <string name="saturday">Saturday</string>
+    <string name="friday">Friday</string>
+    <string name="thursday">Thursday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="monday">Monday</string>
+    <string name="add_your_business">" 🍽️ Register today and discover exclusive benefits for your venue: \n
+1) Instant Reservations: Simplify bookings and reduce wait times. Our intuitive app makes everything quicker and easier! \n
+2) Interactive Menu: Attract more customers with a digital menu that allows advanced ingredient searches. Tailor offers to the needs and personal tastes of your guests. \n
+3) Unique User Experience: Provide your customers with an unprecedented experience - from reservation to menu selection. \n
+4) Increased Visibility: Boost your visibility and reach a wider audience. We're here to showcase your venue! \n
+5) Zero Initial Costs: Enjoy all these features without any expenses. Our platform is completely free for you in this initial phase! \n
+Join us now and transform how customers interact with your restaurant!"</string>
+    <string name="ordina">Order</string>
+    <string name="questo_locale_non_accetta_prenotazioni">This venue does not accept reservations.</string>
+    <string name="accedi">Sign in</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">URestaurants</string>
+    <string name="hint_search_menu">Pizza, pomidor, dżin</string>
+    <string name="dati_aggiornati_il">Dane zaktualizowane %1$s</string>
+    <string name="mappa_momentaneamente_non_disponibile">Mapa chwilowo niedostępna</string>
+    <string name="entra_a_far_parte_di_urestaurant">Dołącz do URestaurant</string>
+    <string name="mi_piacerebbe_entrare_nel_business_cosa_mi_serve">Chciałbym wejść do biznesu, czego potrzebuję?</string>
+    <string name="segnala_un_problema">Zgłoś problem</string>
+    <string name="tel">"Tel: "</string>
+    <string name="no_internet_available">Brak połączenia</string>
+    <string name="placeholder_update">1 stycznia 2024</string>
+    <string name="title_home">Strona główna</string>
+    <string name="title_dashboard">Menu</string>
+    <string name="title_notifications">Informacje</string>
+    <string name="accedi_con_google">Zaloguj się przez Google</string>
+    <string name="str_restoranti">Restauracje</string>
+    <string name="str_pizzerie">Pizzerie</string>
+    <string name="str_bar">Bary</string>
+    <string name="default_web_client_id" />
+    <string name="str_tl_urestaurants">URestaurants</string>
+    <string name="str_impostazioni">Ustawienia</string>
+    <string name="str_nome_utente">Nazwa użytkownika</string>
+    <string name="str_aperto">Otwarte:</string>
+    <string name="pizze">Pizze</string>
+    <string name="chiuso">"Zamknięte: "</string>
+    <string name="aperto">"Otwarte: "</string>
+    <string name="start_adventure">Twoja cyfrowa przygoda zaczyna się teraz - całkowicie ZA DARMO!</string>
+    <string name="conferma">Potwierdź</string>
+    <string name="welcome">Witaj</string>
+    <string name="termini_e_condizioni">Warunki</string>
+    <string name="accept_terms_and_conditions">Akceptuję warunki</string>
+    <string name="confirm">Potwierdź</string>
+    <string name="legal_notes">Uwagi prawne</string>
+    <string name="report_problem">Zgłoś problem</string>
+    <string name="add_your_exercise">Dodaj swoje ćwiczenie</string>
+    <string name="sunday">Niedziela</string>
+    <string name="saturday">Sobota</string>
+    <string name="friday">Piątek</string>
+    <string name="thursday">Czwartek</string>
+    <string name="wednesday">Środa</string>
+    <string name="tuesday">Wtorek</string>
+    <string name="monday">Poniedziałek</string>
+    <string name="add_your_business">" 🍽️ Zarejestruj się dzisiaj i odkryj ekskluzywne korzyści dla swojej restauracji: \n
+1) Natychmiastowe rezerwacje: Ułatw rezerwacje i skróć oczekiwanie. Nasza intuicyjna aplikacja sprawia, że wszystko staje się szybsze i łatwiejsze! \n
+2) Menu interaktywne: Przyciągnij więcej klientów dzięki cyfrowemu menu, które umożliwia zaawansowane wyszukiwanie składników. Dostosuj oferty do potrzeb i gustów osobistych Twoich gości. \n
+3) Wyjątkowe doświadczenie użytkownika: Zaoferuj swoim klientom niezrównane doświadczenie - od rezerwacji po wybór menu. \n
+4) Zwiększona widoczność: Podnieś swoją widoczność i dotrzyj do szerszej publiczności. Jesteśmy tutaj, aby wypromować Twoją restaurację! \n
+5) Brak początkowych kosztów: Ciesz się wszystkimi tymi funkcjami bez żadnych kosztów. Nasza platforma jest w pełni darmowa dla Ciebie na tym wstępnym etapie! \n
+Dołącz do nas teraz i zmień sposób, w jaki klienci komunikują się z Twoją restauracją!"</string>
+    <string name="ordina">Zamów</string>
+    <string name="questo_locale_non_accetta_prenotazioni">To miejsce nie przyjmuje rezerwacji.</string>
+    <string name="accedi">Zaloguj się</string>
+
+</resources>

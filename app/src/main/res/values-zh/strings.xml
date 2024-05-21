@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">URestaurants</string>
+
+    <string name="hint_search_menu">披萨，番茄，杜松子酒</string>
+    <string name="dati_aggiornati_il">数据更新于 %1$s</string>
+    <string name="mappa_momentaneamente_non_disponibile">地图暂时不可用</string>
+    <string name="entra_a_far_parte_di_urestaurant">加入URestaurant</string>
+    <string name="mi_piacerebbe_entrare_nel_business_cosa_mi_serve">我想加入这个行业，我需要什么？</string>
+    <string name="segnala_un_problema">报告问题</string>
+    <string name="tel">"电话："</string>
+    <string name="no_internet_available">无连接</string>
+    <string name="placeholder_update">2024年1月1日</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">菜单</string>
+    <string name="title_notifications">信息</string>
+    <string name="accedi_con_google">使用Google登录</string>
+    <string name="str_restoranti">餐馆</string>
+    <string name="str_pizzerie">比萨店</string>
+    <string name="str_bar">酒吧</string>
+    <string name="default_web_client_id" />
+    <string name="str_tl_urestaurants">URestaurants</string>
+    <string name="str_impostazioni">设置</string>
+    <string name="str_nome_utente">用户名</string>
+    <string name="str_aperto">营业中：</string>
+    <string name="pizze">比萨</string>
+    <string name="chiuso">"已关闭："</string>
+    <string name="aperto">"营业中："</string>
+    <string name="start_adventure">你的数字冒险现在开始 - 完全免费！</string>
+    <string name="conferma">确认</string>
+    <string name="welcome">欢迎</string>
+    <string name="termini_e_condizioni">条款和条件</string>
+    <string name="accept_terms_and_conditions">我接受条款和条件</string>
+    <string name="confirm">确认</string>
+    <string name="legal_notes">法律声明</string>
+    <string name="report_problem">报告问题</string>
+    <string name="add_your_exercise">添加你的练习</string>
+    <string name="sunday">星期日</string>
+    <string name="saturday">星期六</string>
+    <string name="friday">星期五</string>
+    <string name="thursday">星期四</string>
+    <string name="wednesday">星期三</string>
+    <string name="tuesday">星期二</string>
+    <string name="monday">星期一</string>
+    <string name="add_your_business">" 🍽️ 今天注册，发现您餐厅的独家优势： \n
+1) 即时预订：简化预订，减少等待时间。我们直观的应用程序使一切变得更快更容易！ \n
+2) 互动菜单：通过数字菜单吸引更多顾客，实现高级成分搜索。根据客人的需求和个人口味调整优惠。 \n
+3) 独特用户体验：为您的客人提供前所未有的体验 - 从预订到选择菜单。 \n
+4) 提高能见度：增加您的能见度，触及更广泛的观众。我们在这里为您的餐厅推广！ \n
+5) 零起始成本：在这个初始阶段，尽情享受所有这些功能而无需任何费用。我们的平台对您完全免费！ \n
+立即加入我们，改变客户与您的餐厅互动的方式！"</string>
+    <string name="ordina">" 订单"</string>
+    <string name="questo_locale_non_accetta_prenotazioni">该场所不接受预订</string>
+    <string name="accedi">登录</string>
+
+</resources>

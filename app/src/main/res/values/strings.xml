@@ -1,0 +1,63 @@
+<resources>
+    <string name="googleMapKey" translatable="false">AIzaSyBYLi9lWPXZGRT6uYuW813v2Mxt-NJ9FoM</string>
+    <string name="app_name">URestaurants</string>
+    <string name="tarcentino" translatable="false">tarcentino</string>
+    <string name="mailto_business_urestaurants_app" translatable="false">mailto:Business@urestaurants.app</string>
+
+    <string name="hint_search_menu">Pizza, pomodoro, gin</string>
+    <string name="dati_aggiornati_il">Dati aggiornati il %1$s</string>
+    <string name="mappa_momentaneamente_non_disponibile">Mappa momentaneamente non disponibile</string>
+    <string name="entra_a_far_parte_di_urestaurant">Entra a far parte di URestaurant</string>
+    <string name="mi_piacerebbe_entrare_nel_business_cosa_mi_serve">Mi piacerebbe entrare nel business, cosa mi serve?</string>
+    <string name="segnala_un_problema">Segnala un problema</string>
+    <string name="tel">"Tel: "</string>
+    <string name="no_internet_available">Nessuna connessione</string>
+    <string name="placeholder_update">1 Gennaio 2024</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Menu</string>
+    <string name="title_notifications">Info</string>
+    <string name="accedi_con_google">Accedi Con Google</string>
+    <string name="str_restoranti">Ristoranti</string>
+    <string name="str_pizzerie">Pizzerie</string>
+    <string name="str_bar">Bar</string>
+    <string name="default_web_client_id" translatable="false" />
+    <string name="str_tl_urestaurants">URestaurants</string>
+    <string name="str_impostazioni">Impostazioni</string>
+    <string name="str_nome_utente">Nome Utente</string>
+    <string name="str_aperto">Aperto:</string>
+    <string name="pizze">Pizze</string>
+    <string name="chiuso">"Chiuso: "</string>
+    <string name="aperto">"Aperto: "</string>
+    <string name="start_adventure">La tua avventura digitale inizia ora - completamente GRATIS!</string>
+    <string name="conferma">Conferma</string>
+    <string name="welcome">Benvenuto</string>
+    <string name="termini_e_condizioni">Termini e Condizioni</string>
+    <string name="accept_terms_and_conditions">Accetto termini e condizioni</string>
+    <string name="confirm">Conferma</string>
+    <string name="legal_notes">Note Legali</string>
+    <string name="report_problem">Segnala un problema</string>
+    <string name="add_your_exercise">Aggiungi il tuo esercizio</string>
+    <string name="sunday">Domenica</string>
+    <string name="saturday">Sabato</string>
+    <string name="friday">Venerdì</string>
+    <string name="thursday">Giovedì</string>
+    <string name="wednesday">Mercoledì</string>
+    <string name="tuesday">Martedì</string>
+    <string name="monday">Lunedì</string>
+    <string name="add_your_business">" 🍽️ Registrati oggi e scopri i vantaggi esclusivi per il tuo locale: \n
+1) Prenotazioni Istantanee: Semplifica le prenotazioni e riduci le attese. La nostra app intuitiva rende tutto più rapido e facile! \n
+2) Menu Interattivo: Attrai più clienti con un menù digitale che permette la ricerca avanzata degli ingredienti. Adatta le offerte alle esigenze e ai gusti personali dei tuoi ospiti. \n
+3) Esperienza Utente Unica: Offri ai tuoi clienti un'esperienza senza precedenti - dalla prenotazione alla selezione del menù. \n
+4) Visibilità Accresciuta: Aumenta la tua visibilità e raggiungi un pubblico più ampio. Siamo qui per mettere in luce il tuo locale! \n
+5) Zero Costi Iniziali: Goditi tutte queste funzionalità senza alcuna spesa. La nostra piattaforma è completamente gratuita per te in questa fase iniziale! \n
+Unisciti a noi ora e trasforma il modo in cui i clienti interagiscono con il tuo ristorante!"</string>
+    <string name="title_dynamicfeature" translatable="false">Module Title</string>
+    <string name="euro_format" translatable="false">€ %1$s</string>
+    <string name="ordina">Prenota</string>
+    <string name="questo_locale_non_accetta_prenotazioni">Questo locale non accetta prenotazioni</string>
+    <string name="accedi">Accedi</string>
+    <string name="scrivi">Scrivi...</string>
+    <string name="free_parking">Parcheggio Gratuito</string>
+    <string name="party_birthday">Compleanni / Feste</string>
+
+</resources>

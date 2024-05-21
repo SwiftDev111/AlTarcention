@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "820988340688",
+    "firebase_url": "https://urestaurants-ebb27-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "urestaurants-ebb27",
+    "storage_bucket": "urestaurants-ebb27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820988340688:android:04869cab351f3303cfb1d5",
+        "android_client_info": {
+          "package_name": "celo.URestaurants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820988340688-jhnpuggop156lk1rlvkjaef9ru4c2haj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "celo.URestaurants",
+            "certificate_hash": "fcb1d3ddb4676390f9b22a58148636cf44b4a33f"
+          }
+        },
+        {
+          "client_id": "820988340688-cn9hcqs2rp7ucttl5l9391vmdcidg6de.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnZ3aJqqe_SZVQe6F9r7jfK2Csw60vdxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820988340688-cn9hcqs2rp7ucttl5l9391vmdcidg6de.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "820988340688-500q5r2icvi4molpd90qdios2mjn2svc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "celo.URestaurant-for-Business"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">URestaurants</string>
+
+    <string name="hint_search_menu">Пицца, помидор, джин</string>
+    <string name="dati_aggiornati_il">Данные обновлены %1$s</string>
+    <string name="mappa_momentaneamente_non_disponibile">Карта временно недоступна</string>
+    <string name="entra_a_far_parte_di_urestaurant">Присоединяйтесь к URestaurant</string>
+    <string name="mi_piacerebbe_entrare_nel_business_cosa_mi_serve">Мне бы хотелось войти в бизнес, что мне нужно?</string>
+    <string name="segnala_un_problema">Сообщить о проблеме</string>
+    <string name="tel">"Тел: "</string>
+    <string name="no_internet_available">Нет соединения</string>
+    <string name="placeholder_update">1 января 2024</string>
+    <string name="title_home">Главная</string>
+    <string name="title_dashboard">Меню</string>
+    <string name="title_notifications">Информация</string>
+    <string name="accedi_con_google">Войти через Google</string>
+    <string name="str_restoranti">Рестораны</string>
+    <string name="str_pizzerie">Пиццерии</string>
+    <string name="str_bar">Бары</string>
+    <string name="default_web_client_id" />
+    <string name="str_tl_urestaurants">URestaurants</string>
+    <string name="str_impostazioni">Настройки</string>
+    <string name="str_nome_utente">Имя пользователя</string>
+    <string name="str_aperto">Открыто:</string>
+    <string name="pizze">Пиццы</string>
+    <string name="chiuso">"Закрыто: "</string>
+    <string name="aperto">"Открыто: "</string>
+    <string name="start_adventure">Ваш цифровой квест начинается сейчас - полностью БЕСПЛАТНО!</string>
+    <string name="conferma">Подтвердить</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="termini_e_condizioni">Условия</string>
+    <string name="accept_terms_and_conditions">Принимаю условия</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="legal_notes">Юридические заметки</string>
+    <string name="report_problem">Сообщить о проблеме</string>
+    <string name="add_your_exercise">Добавьте свое упражнение</string>
+    <string name="sunday">Воскресенье</string>
+    <string name="saturday">Суббота</string>
+    <string name="friday">Пятница</string>
+    <string name="thursday">Четверг</string>
+    <string name="wednesday">Среда</string>
+    <string name="tuesday">Вторник</string>
+    <string name="monday">Понедельник</string>
+    <string name="add_your_business">" 🍽️ Зарегистрируйтесь сегодня и откройте для себя эксклюзивные преимущества для вашего заведения: \n
+1) Мгновенные бронирования: Упростите процесс бронирования и сократите ожидание. Наше интуитивное приложение делает все быстрее и легче! \n
+2) Интерактивное меню: Привлеките больше клиентов с помощью цифрового меню, которое позволяет продвинутый поиск по ингредиентам. Адаптируйте предложения под потребности и вкусы ваших гостей. \n
+3) Уникальный пользовательский опыт: Предоставьте вашим клиентам неповторимый опыт - от бронирования до выбора блюд. \n
+4) Повышенная видимость: Увеличьте свою видимость и достигните более широкой аудитории. Мы здесь, чтобы выделить ваш ресторан! \n
+5) Нулевые начальные затраты: Наслаждайтесь всеми этими функциями без каких-либо расходов. Наша платформа полностью бесплатна для вас на этапе запуска! \n
+Присоединяйтесь к нам сейчас и измените способ взаимодействия клиентов с вашим рестораном!"</string>
+    <string name="ordina">Заказать</string>
+    <string name="questo_locale_non_accetta_prenotazioni">Это заведение не принимает бронирование</string>
+    <string name="accedi">Войти</string>
+
+</resources>
