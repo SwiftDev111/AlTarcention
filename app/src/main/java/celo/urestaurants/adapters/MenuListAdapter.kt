@@ -1,6 +1,5 @@
 package celo.urestaurants.adapters
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -82,27 +81,32 @@ class MenuListAdapter(
                     ingredienti.visibility = View.VISIBLE
 
 
-                if (item.isFirst && item.isLast) {
-                    val gradientDrawable = ContextCompat.getDrawable(
-                        itemView.context,
-                        R.drawable.rounded_white_topbottom_12
-                    )
-                    layout.setImageDrawable(gradientDrawable)
+                when {
+                    item.isFirst && item.isLast -> {
+                        val gradientDrawable = ContextCompat.getDrawable(
+                            itemView.context,
+                            R.drawable.rounded_white_topbottom_12
+                        )
+                        layout.setImageDrawable(gradientDrawable)
 
-                } else if (item.isLast) {
-                    val gradientDrawable = ContextCompat.getDrawable(
-                        itemView.context,
-                        R.drawable.rounded_white_bottom_12
-                    )
-                    layout.setImageDrawable(gradientDrawable)
-                } else if (item.isFirst) {
-                    val gradientDrawable =
-                        ContextCompat.getDrawable(itemView.context, R.drawable.rounded_white_top_12)
-                    layout.setImageDrawable(gradientDrawable)
-                } else {
-                    val gradientDrawable =
-                        ContextCompat.getDrawable(itemView.context, R.drawable.no_rounded_white)
-                    layout.setImageDrawable(gradientDrawable)
+                    }
+                    item.isLast -> {
+                        val gradientDrawable = ContextCompat.getDrawable(
+                            itemView.context,
+                            R.drawable.rounded_white_bottom_12
+                        )
+                        layout.setImageDrawable(gradientDrawable)
+                    }
+                    item.isFirst -> {
+                        val gradientDrawable =
+                            ContextCompat.getDrawable(itemView.context, R.drawable.rounded_white_top_12)
+                        layout.setImageDrawable(gradientDrawable)
+                    }
+                    else -> {
+                        val gradientDrawable =
+                            ContextCompat.getDrawable(itemView.context, R.drawable.no_rounded_white)
+                        layout.setImageDrawable(gradientDrawable)
+                    }
                 }
 
                 listLayout.setOnClickListener {
