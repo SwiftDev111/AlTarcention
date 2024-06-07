@@ -20,6 +20,7 @@ import android.telephony.TelephonyManager
 import android.util.Log
 import android.view.MenuItem
 import android.view.View
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.NotificationCompat
@@ -244,6 +245,38 @@ class MainActivity : AppCompatActivity(), MainTitleNavigationBar {
             newId?.let { id ->
                 editor.putString(Constants.FIREBASE_NODE_Auth, id)
                 editor.apply()
+            }
+        }
+
+        handleIntent(intent)
+    }
+
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        handleIntent(intent)
+    }
+
+    private fun handleIntent(intent: Intent?) {
+        val appLinkAction = intent?.action
+        val appLinkData: Uri? = intent?.data
+        if (Intent.ACTION_VIEW == appLinkAction) {
+            appLinkData?.lastPathSegment?.also { recipeId ->
+                Uri.parse("content://urestaurants.altervista.org")
+                    .buildUpon()
+                    .appendPath(recipeId)
+                    .build().also { appData ->
+                        val bundle = Bundle().apply {
+                            putString("IdPlace", recipeId)
+//                            putString("UpdatedTitle", updatedTitle)
+                        }
+
+                        val homeFragment = HomeFragment().apply {
+                            arguments = bundle  // Set the bundle as arguments for the fragment
+                        }
+                        supportFragmentManager.beginTransaction()
+                            .replace(R.id.nav_host_fragment_activity_main, homeFragment)
+                            .commit()
+                    }
             }
         }
     }

@@ -9,6 +9,9 @@ android {
     defaultConfig {
         minSdk 26
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        versionCode 3
+        versionName "1.0"
+        targetSdk 34
     }
 
     buildTypes {

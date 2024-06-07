@@ -96,7 +96,7 @@ class HomeFragment @Inject constructor() : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.searchView?.searchInputText?.hint = getString(R.string.hint_search_menu)
+        binding.searchView.searchInputText.hint = getString(R.string.hint_search_menu)
 
         //sharedPref = requireActivity().getSharedPreferences(Constants.PREF_KEY_PARAM_KEY, Context.MODE_PRIVATE)
 

@@ -5,26 +5,26 @@
     android:targetSandboxVersion="2">
 
     <dist:module dist:instant="true" />
-    <dist:module
-        dist:instant="true"
-        dist:onDemand="false">
-        <dist:fusing dist:include="false" />
-    </dist:module>
+<!--    <dist:module-->
+<!--        dist:instant="true"-->
+<!--        dist:onDemand="false">-->
+<!--        <dist:fusing dist:include="false" />-->
+<!--    </dist:module>-->
 
     <uses-feature
         android:name="android.hardware.telephony"
         android:required="false" />
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission
         android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
         tools:ignore="ProtectedPermissions" />
-    <uses-permission android:name="READ/WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="READ/WRITE_EXTERNAL_STORAGE" />
 
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
         android:name=".AppRestaurants"
@@ -44,6 +44,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/googleMapKey" />
+
         <activity
             android:name=".ui.activities.InfoOrariActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -58,29 +59,47 @@
             android:exported="true"
             android:visibleToInstantApps="true"
             android:windowSoftInputMode="adjustResize">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <intent-filter android:autoVerify="true" android:order="1">
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="https"/>
-                <data android:host="urestaurants.altervista.org"/>
-                <data android:scheme="http"/>
-                <data android:pathPattern="/.*"/>
-            </intent-filter>
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+
+            <intent-filter
+                android:autoVerify="true"
+                android:order="1">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:host="urestaurants.altervista.org" />
+                <data android:pathPattern="/.*" />
+            </intent-filter>
+            <intent-filter
+                android:autoVerify="true"
+                android:order="1">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="https" />
+                <data android:host="urestaurants.altervista.org" />
+                <data android:pathPattern="/.*" />
+            </intent-filter>
         </activity>
 
         <service
             android:name=".MyFirebaseMessagingService"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
     </application>
